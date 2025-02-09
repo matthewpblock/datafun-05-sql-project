@@ -27,5 +27,5 @@ This project demonstrates the creation of a SQL database using Python and SQLite
 - logs: contains logs of scripted actions ran and errors
   
 ## References
-Lessson specifications: https://github.com/denisecase/datafun-05-spec  
-Data from: "Learn to Code with Basketball" by Nathan Braun https://github.com/nathanbraun/code-basketball-files  
+- Lessson specifications: https://github.com/denisecase/datafun-05-spec  
+- Data from: "Learn to Code with Basketball" by Nathan Braun https://github.com/nathanbraun/code-basketball-files  
