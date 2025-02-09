@@ -18,4 +18,7 @@ This project demonstrates the creation of a SQL database using Python and SQLite
 8. Update pip & install requirements
 ```py -m pip install --upgrade pip setuptools wheel  py -m pip install -r requirements.txt```  
 9. Set correct interpreter & kernel  
-10. Run All wherever you view Jupyter Notebooks
+
+
+## References
+https://github.com/denisecase/datafun-05-spec  

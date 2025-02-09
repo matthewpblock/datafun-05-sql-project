@@ -1,0 +1,1 @@
+-- use GROUP BY clause (and optionally with aggregation)
