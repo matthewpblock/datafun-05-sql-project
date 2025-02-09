@@ -21,4 +21,5 @@ This project demonstrates the creation of a SQL database using Python and SQLite
 
 
 ## References
-https://github.com/denisecase/datafun-05-spec  
+Lessson specifications: https://github.com/denisecase/datafun-05-spec  
+Data from: "Learn to Code with Basketball" by Nathan Braun https://github.com/nathanbraun/code-basketball-files  
