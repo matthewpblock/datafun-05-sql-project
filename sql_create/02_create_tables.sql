@@ -23,6 +23,7 @@ CREATE TABLE players (
     country TEXT,
     last_affiliation TEXT,
     height TEXT,
+    height_inches INTEGER,
     [weight] INTEGER,
     season_exp INTEGER,
     jersey TEXT,

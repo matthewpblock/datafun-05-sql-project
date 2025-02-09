@@ -164,3 +164,18 @@
 2025-02-09 12:48:08.785 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
 2025-02-09 12:48:08.785 | INFO     | __main__:main:94 - Database updates completed successfully.
 2025-02-09 12:48:08.785 | INFO     | __main__:main:99 - Database connection closed.
+2025-02-09 12:59:41.496 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:59:41.496 | INFO     | __main__:main:40 - Starting database setup...
+2025-02-09 12:59:41.499 | INFO     | __main__:main:54 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:59:41.517 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 12:59:41.547 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-02-09 12:59:41.553 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-02-09 12:59:41.553 | INFO     | __main__:main:62 - Database setup completed successfully.
+2025-02-09 12:59:41.554 | INFO     | __main__:main:67 - Database connection closed.
+2025-02-09 12:59:53.111 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:59:53.111 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 12:59:53.113 | INFO     | __main__:main:85 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:59:53.124 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 12:59:53.248 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
+2025-02-09 12:59:53.249 | INFO     | __main__:main:94 - Database updates completed successfully.
+2025-02-09 12:59:53.249 | INFO     | __main__:main:99 - Database connection closed.
