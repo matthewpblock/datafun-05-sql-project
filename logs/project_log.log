@@ -1,0 +1,8 @@
+2025-02-08 19:42:59.500 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-08 19:42:59.500 | INFO     | __main__:main:39 - Starting database setup...
+2025-02-08 19:42:59.503 | INFO     | __main__:main:53 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-08 19:42:59.513 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-08 19:42:59.539 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-02-08 19:42:59.547 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-02-08 19:42:59.547 | INFO     | __main__:main:61 - Database setup completed successfully.
+2025-02-08 19:42:59.548 | INFO     | __main__:main:66 - Database connection closed.
