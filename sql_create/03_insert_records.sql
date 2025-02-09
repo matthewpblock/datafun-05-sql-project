@@ -34,7 +34,7 @@ INSERT INTO teams (team, nickname, city, [state], conference, division) VALUES
     ('WAS', 'Wizards', 'Washington', 'D.C.', 'Eastern', 'Southeast');
 
 -- insert  records into the players table.
-INSERT INTO players (player_id, first_name, last_name, birthdate, height, [weight], country, team) VALUES
+INSERT INTO players (player_id, [first], [last], birthdate, height, [weight], country, team) VALUES
     (1713, 'Vince', 'Carter', 19770126, '6-6', 220, 'USA', 'ATL'),
     (2544, 'LeBron', 'James', 19841230, '6-9', 250, 'USA', 'CLE'),
     (2546, 'Carmelo', 'Anthony', 19840529, '6-7', 238, 'USA', 'OKC'),

@@ -6,3 +6,161 @@
 2025-02-08 19:42:59.547 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql
 2025-02-08 19:42:59.547 | INFO     | __main__:main:61 - Database setup completed successfully.
 2025-02-08 19:42:59.548 | INFO     | __main__:main:66 - Database connection closed.
+2025-02-09 10:15:00.600 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 10:15:00.600 | INFO     | __main__:establish_keys:65 - Connected to database: data\db.sqlite
+2025-02-09 10:20:14.073 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 10:20:14.073 | INFO     | __main__:main:40 - Starting database setup...
+2025-02-09 10:20:14.076 | INFO     | __main__:main:54 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 10:20:14.083 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 10:20:14.088 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-02-09 10:20:14.095 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-02-09 10:20:14.095 | INFO     | __main__:main:62 - Database setup completed successfully.
+2025-02-09 10:20:14.096 | INFO     | __main__:main:67 - Database connection closed.
+2025-02-09 10:57:25.501 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 10:58:10.877 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 11:18:52.503 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 11:18:52.506 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 11:18:52.634 | INFO     | __main__:main:88 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 11:18:52.634 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 11:18:52.648 | ERROR    | __main__:execute_sql_file:64 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\establish_keys.sql: near "PRIMARY": syntax error
+2025-02-09 11:18:52.648 | ERROR    | __main__:main:98 - Error during database updates: near "PRIMARY": syntax error
+2025-02-09 11:18:52.649 | INFO     | __main__:main:101 - Database connection closed.
+2025-02-09 11:25:08.926 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 11:25:08.926 | INFO     | __main__:main:40 - Starting database setup...
+2025-02-09 11:25:08.927 | INFO     | __main__:main:54 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 11:25:08.939 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 11:25:08.945 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-02-09 11:25:08.955 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-02-09 11:25:08.955 | INFO     | __main__:main:62 - Database setup completed successfully.
+2025-02-09 11:25:08.956 | INFO     | __main__:main:67 - Database connection closed.
+2025-02-09 11:26:25.397 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 11:26:25.397 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 11:26:25.522 | INFO     | __main__:main:88 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 11:26:25.522 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 11:26:25.522 | ERROR    | __main__:execute_sql_file:64 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\establish_keys.sql: near "PRIMARY": syntax error
+2025-02-09 11:26:25.522 | ERROR    | __main__:main:98 - Error during database updates: near "PRIMARY": syntax error
+2025-02-09 11:26:25.522 | INFO     | __main__:main:101 - Database connection closed.
+2025-02-09 11:27:03.153 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 11:27:03.154 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 11:27:03.264 | INFO     | __main__:main:88 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 11:27:03.266 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 11:27:03.273 | ERROR    | __main__:execute_sql_file:64 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\establish_keys.sql: near "FOREIGN": syntax error
+2025-02-09 11:27:03.273 | ERROR    | __main__:main:98 - Error during database updates: near "FOREIGN": syntax error
+2025-02-09 11:27:03.273 | INFO     | __main__:main:101 - Database connection closed.
+2025-02-09 11:30:07.473 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 11:30:07.473 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 11:30:07.590 | INFO     | __main__:main:88 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 11:30:07.590 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 11:30:07.592 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
+2025-02-09 11:30:07.592 | INFO     | __main__:main:96 - Database updates completed successfully.
+2025-02-09 11:30:07.592 | INFO     | __main__:main:101 - Database connection closed.
+2025-02-09 11:32:31.876 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 11:32:31.876 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 11:32:31.982 | INFO     | __main__:main:88 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 11:32:31.983 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 11:32:31.984 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
+2025-02-09 11:32:31.984 | INFO     | __main__:main:96 - Database updates completed successfully.
+2025-02-09 11:32:31.984 | INFO     | __main__:main:101 - Database connection closed.
+2025-02-09 11:34:10.934 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 11:34:10.934 | INFO     | __main__:main:40 - Starting database setup...
+2025-02-09 11:34:10.935 | INFO     | __main__:main:54 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 11:34:10.941 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 11:34:10.951 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-02-09 11:34:10.958 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-02-09 11:34:10.960 | INFO     | __main__:main:62 - Database setup completed successfully.
+2025-02-09 11:34:10.960 | INFO     | __main__:main:67 - Database connection closed.
+2025-02-09 11:34:41.454 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 11:34:41.454 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 11:34:41.501 | INFO     | __main__:main:88 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 11:34:41.501 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 11:34:41.501 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
+2025-02-09 11:34:41.501 | INFO     | __main__:main:96 - Database updates completed successfully.
+2025-02-09 11:34:41.501 | INFO     | __main__:main:101 - Database connection closed.
+2025-02-09 12:01:44.980 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:01:44.980 | INFO     | __main__:main:40 - Starting database setup...
+2025-02-09 12:01:44.981 | INFO     | __main__:main:54 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:01:44.990 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 12:01:45.019 | ERROR    | __main__:execute_sql_file:33 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql: table games already exists
+2025-02-09 12:01:45.019 | ERROR    | __main__:main:64 - Error during database setup: table games already exists
+2025-02-09 12:01:45.019 | INFO     | __main__:main:67 - Database connection closed.
+2025-02-09 12:02:44.916 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:02:44.916 | INFO     | __main__:main:40 - Starting database setup...
+2025-02-09 12:02:44.918 | INFO     | __main__:main:54 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:02:44.937 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 12:02:44.951 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-02-09 12:02:44.954 | ERROR    | __main__:execute_sql_file:33 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql: table players has no column named first_name
+2025-02-09 12:02:44.956 | ERROR    | __main__:main:64 - Error during database setup: table players has no column named first_name
+2025-02-09 12:02:44.956 | INFO     | __main__:main:67 - Database connection closed.
+2025-02-09 12:04:16.314 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:04:16.314 | INFO     | __main__:main:40 - Starting database setup...
+2025-02-09 12:04:16.317 | INFO     | __main__:main:54 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:04:16.332 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 12:04:16.347 | ERROR    | __main__:execute_sql_file:33 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql: table player_stats already exists
+2025-02-09 12:04:16.348 | ERROR    | __main__:main:64 - Error during database setup: table player_stats already exists
+2025-02-09 12:04:16.348 | INFO     | __main__:main:67 - Database connection closed.
+2025-02-09 12:04:56.557 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:04:56.557 | INFO     | __main__:main:40 - Starting database setup...
+2025-02-09 12:04:56.560 | INFO     | __main__:main:54 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:04:56.569 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 12:04:56.585 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-02-09 12:04:56.609 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-02-09 12:04:56.609 | INFO     | __main__:main:62 - Database setup completed successfully.
+2025-02-09 12:04:56.610 | INFO     | __main__:main:67 - Database connection closed.
+2025-02-09 12:05:57.430 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:05:57.430 | INFO     | __main__:main:40 - Starting database setup...
+2025-02-09 12:05:57.431 | INFO     | __main__:main:54 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:05:57.453 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 12:05:57.463 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-02-09 12:05:57.470 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-02-09 12:05:57.470 | INFO     | __main__:main:62 - Database setup completed successfully.
+2025-02-09 12:05:57.472 | INFO     | __main__:main:67 - Database connection closed.
+2025-02-09 12:07:36.178 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:07:36.178 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 12:07:36.223 | INFO     | __main__:main:88 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:07:36.223 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 12:07:36.226 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
+2025-02-09 12:07:36.227 | INFO     | __main__:main:96 - Database updates completed successfully.
+2025-02-09 12:07:36.227 | INFO     | __main__:main:101 - Database connection closed.
+2025-02-09 12:23:57.696 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:23:57.696 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 12:23:57.744 | INFO     | __main__:main:88 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:23:57.761 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 12:23:57.761 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
+2025-02-09 12:23:57.761 | INFO     | __main__:main:96 - Database updates completed successfully.
+2025-02-09 12:23:57.761 | INFO     | __main__:main:101 - Database connection closed.
+2025-02-09 12:26:03.421 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:26:03.421 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 12:26:03.423 | INFO     | __main__:main:85 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:26:03.433 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 12:26:03.536 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
+2025-02-09 12:26:03.536 | INFO     | __main__:main:95 - Database updates completed successfully.
+2025-02-09 12:26:03.537 | INFO     | __main__:main:100 - Database connection closed.
+2025-02-09 12:28:34.723 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:28:34.723 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 12:28:34.727 | INFO     | __main__:main:85 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:28:34.734 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 12:28:34.798 | ERROR    | __main__:execute_sql_file:64 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\establish_keys.sql: near "FOREIGN": syntax error
+2025-02-09 12:28:34.798 | ERROR    | __main__:main:97 - Error during database updates: near "FOREIGN": syntax error
+2025-02-09 12:28:34.800 | INFO     | __main__:main:100 - Database connection closed.
+2025-02-09 12:36:10.860 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:36:10.860 | INFO     | __main__:main:40 - Starting database setup...
+2025-02-09 12:36:10.862 | INFO     | __main__:main:54 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:36:10.882 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 12:36:10.905 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-02-09 12:36:10.913 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-02-09 12:36:10.914 | INFO     | __main__:main:62 - Database setup completed successfully.
+2025-02-09 12:36:10.915 | INFO     | __main__:main:67 - Database connection closed.
+2025-02-09 12:37:14.721 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:37:14.721 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 12:37:14.723 | INFO     | __main__:main:85 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:37:14.732 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 12:37:14.839 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
+2025-02-09 12:37:14.839 | INFO     | __main__:main:94 - Database updates completed successfully.
+2025-02-09 12:37:14.841 | INFO     | __main__:main:99 - Database connection closed.
+2025-02-09 12:48:08.679 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 12:48:08.679 | INFO     | __main__:main:71 - Starting updates and feature engineering...
+2025-02-09 12:48:08.682 | INFO     | __main__:main:85 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 12:48:08.699 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 12:48:08.785 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
+2025-02-09 12:48:08.785 | INFO     | __main__:main:94 - Database updates completed successfully.
+2025-02-09 12:48:08.785 | INFO     | __main__:main:99 - Database connection closed.
