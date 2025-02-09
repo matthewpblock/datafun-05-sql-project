@@ -9,6 +9,7 @@ import pathlib
 
 # Import local modules
 from utils_logger import logger
+
 ############################################
 # Define Variables
 ############################################
@@ -65,7 +66,9 @@ def execute_sql_file(connection, file_path) -> None:
         raise
 
 ###############################################
-# Main Execution ###############################################
+# Main Execution 
+################################################
+
 def main() -> None:
     # Log start of database setup
     logger.info("Starting updates and feature engineering...")
@@ -89,6 +92,7 @@ def main() -> None:
         execute_sql_file(connection, SQL_FEATURES_FOLDER.joinpath('delete_records.sql'))
         # Insert data from CSV files into the database
         insert_data_from_csv()
+        # Execute SQL files with feature engineering updates
         execute_sql_file(connection, SQL_FEATURES_FOLDER.joinpath('update_records.sql'))
 
         logger.info("Database updates completed successfully.")
