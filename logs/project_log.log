@@ -373,3 +373,7 @@ GROUP BY team;
 2025-02-09 19:51:09.613 | INFO     | db03_queries:group_by_team_avg_weight:81 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
 2025-02-09 19:51:09.663 | INFO     | db03_queries:group_by_team_avg_weight:88 - Grouped successfully.
 2025-02-09 19:51:09.663 | INFO     | db03_queries:group_by_team_avg_weight:93 - Database connection closed.
+2025-02-09 19:55:50.165 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 19:55:51.064 | INFO     | db03_queries:filter_bench:98 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:55:51.213 | INFO     | db03_queries:filter_bench:105 - Filtered successfully.
+2025-02-09 19:55:51.213 | INFO     | db03_queries:filter_bench:110 - Database connection closed.

@@ -96,7 +96,12 @@ def filter_bench():
     '''Filter to only performances coming off the bench (no starters)'''
     try:
         logger.info(f"Connected to database: {DB_PATH}")
-        execute_sql_file(connection, SQL_QUERIES_FOLDER.joinpath('query_filter.sql'))
+        with open(SQL_QUERIES_FOLDER.joinpath('query_filter.sql'), 'r') as file:
+            # Read the SQL file into a string
+            sql_script: str = file.read()
+            # Execute the SQL script into a DataFrame
+            df_filtered = pd.read_sql_query(sql_script, connection)
+            print(df_filtered.head())
         logger.info("Filtered successfully.")
     except Exception as e:
         logger.error(f"Error during filtering: {e}")

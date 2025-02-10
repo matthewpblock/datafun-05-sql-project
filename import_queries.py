@@ -11,4 +11,4 @@ import db03_queries as queries
 # Define Variables
 ############################################
 
-queries.group_by_team_avg_weight()
+queries.filter_bench()
