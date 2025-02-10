@@ -1,7 +1,4 @@
 
-# Imports from Python Standard Library
-import sqlite3
-import pathlib
 
 # Import local modules
 from utils_logger import logger

@@ -144,8 +144,23 @@ def aggregation():
     #      f"Regular Away Points: {regular_away_points}")
     
 def join():
-    '''Reserved for future use.'''
-    
+    '''Reserved for future use.
+    Will implement joining once .sql file is created.'''
+    try:
+        logger.info(f"Connected to database: {DB_PATH}")
+        # execute_sql_file(connection, SQL_QUERIES_FOLDER.joinpath('query_capture.sql'))
+        with open(SQL_QUERIES_FOLDER.joinpath('query_join.sql'), 'r') as file:
+            # Read the SQL file into a string
+            sql_script: str = file.read()
+            df_join = pd.read_sql_query(sql_script, connection)
+            print(df_join.head())
+        logger.info("Joined successfully.")
+    except Exception as e:
+        logger.error(f"Error during joining: {e}")
+    finally:
+        connection.close()
+        logger.info("Database connection closed.")
+        
 def capture_dataframe():
     '''Capture the results of the SQL query in a Pandas DataFrame.'''
     try:
