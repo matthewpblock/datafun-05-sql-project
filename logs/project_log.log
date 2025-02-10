@@ -179,3 +179,197 @@
 2025-02-09 12:59:53.248 | INFO     | __main__:execute_sql_file:62 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
 2025-02-09 12:59:53.249 | INFO     | __main__:main:94 - Database updates completed successfully.
 2025-02-09 12:59:53.249 | INFO     | __main__:main:99 - Database connection closed.
+2025-02-09 16:28:35.042 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:30:21.773 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:32:34.485 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:34:49.447 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:34:49.532 | INFO     | db03_queries:sorting_rim_protection:55 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:34:49.532 | ERROR    | db03_queries:execute_sql_file:49 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\query_sorting.sql: [Errno 2] No such file or directory: 'C:\\Projects\\MS in Data Analytics\\Data Fundamentals\\datafun-05-sql-project\\sql_create\\query_sorting.sql'
+2025-02-09 16:34:49.538 | ERROR    | db03_queries:sorting_rim_protection:59 - Error during sorting: [Errno 2] No such file or directory: 'C:\\Projects\\MS in Data Analytics\\Data Fundamentals\\datafun-05-sql-project\\sql_create\\query_sorting.sql'
+2025-02-09 16:34:49.542 | INFO     | db03_queries:sorting_rim_protection:62 - Database connection closed.
+2025-02-09 16:36:00.542 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:36:00.618 | INFO     | db03_queries:sorting_rim_protection:55 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:36:00.618 | ERROR    | db03_queries:sorting_rim_protection:59 - Error during sorting: name 'SQL_CREATE_FOLDER' is not defined
+2025-02-09 16:36:00.618 | INFO     | db03_queries:sorting_rim_protection:62 - Database connection closed.
+2025-02-09 16:37:42.551 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:37:42.624 | INFO     | db03_queries:sorting_rim_protection:55 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:37:42.663 | INFO     | db03_queries:execute_sql_file:47 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 16:37:42.666 | INFO     | db03_queries:sorting_rim_protection:57 - Sorted successfully.
+2025-02-09 16:37:42.668 | INFO     | db03_queries:sorting_rim_protection:62 - Database connection closed.
+2025-02-09 16:43:56.144 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:43:56.200 | INFO     | db03_queries:sorting_rim_protection:55 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:43:56.221 | INFO     | db03_queries:execute_sql_file:47 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 16:43:56.221 | INFO     | db03_queries:sorting_rim_protection:57 - Sorted successfully.
+2025-02-09 16:43:56.221 | ERROR    | db03_queries:sorting_rim_protection:62 - Error during sorting: 'builtin_function_or_method' object has no attribute 'fetchall'
+2025-02-09 16:43:56.228 | INFO     | db03_queries:sorting_rim_protection:65 - Database connection closed.
+2025-02-09 16:46:11.970 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:46:12.018 | INFO     | db03_queries:sorting_rim_protection:56 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:46:12.045 | INFO     | db03_queries:execute_sql_file:48 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 16:46:12.045 | INFO     | db03_queries:sorting_rim_protection:58 - Sorted successfully.
+2025-02-09 16:46:12.045 | INFO     | db03_queries:sorting_rim_protection:66 - Database connection closed.
+2025-02-09 16:50:53.677 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:50:53.686 | INFO     | db03_queries:sorting_rim_protection:56 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:50:53.692 | INFO     | db03_queries:execute_sql_file:48 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 16:50:53.694 | INFO     | db03_queries:sorting_rim_protection:58 - Sorted successfully.
+2025-02-09 16:50:53.696 | INFO     | db03_queries:sorting_rim_protection:66 - Database connection closed.
+2025-02-09 16:52:28.226 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:52:28.239 | INFO     | db03_queries:sorting_rim_protection:56 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:52:28.258 | INFO     | db03_queries:execute_sql_file:48 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 16:52:28.260 | INFO     | db03_queries:sorting_rim_protection:58 - Sorted successfully.
+2025-02-09 16:52:28.267 | INFO     | db03_queries:sorting_rim_protection:66 - Database connection closed.
+2025-02-09 16:54:13.518 | INFO     | db03_queries:sorting_rim_protection:56 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:54:13.523 | ERROR    | db03_queries:execute_sql_file:50 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql: Cannot operate on a closed database.
+2025-02-09 16:54:13.546 | ERROR    | db03_queries:sorting_rim_protection:63 - Error during sorting: Cannot operate on a closed database.
+2025-02-09 16:54:13.549 | INFO     | db03_queries:sorting_rim_protection:66 - Database connection closed.
+2025-02-09 16:56:18.072 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:56:18.077 | INFO     | db03_queries:sorting_rim_protection:56 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:56:18.082 | INFO     | db03_queries:execute_sql_file:48 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 16:56:18.082 | INFO     | db03_queries:sorting_rim_protection:58 - Sorted successfully.
+2025-02-09 16:56:18.082 | INFO     | db03_queries:sorting_rim_protection:66 - Database connection closed.
+2025-02-09 16:58:20.710 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:58:20.711 | INFO     | __main__:main:41 - Starting database setup...
+2025-02-09 16:58:20.714 | INFO     | __main__:main:55 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:58:20.750 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\01_drop_tables.sql
+2025-02-09 16:58:20.766 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\02_create_tables.sql
+2025-02-09 16:58:20.774 | INFO     | __main__:execute_sql_file:31 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_create\03_insert_records.sql
+2025-02-09 16:58:20.777 | INFO     | __main__:main:63 - Database setup completed successfully.
+2025-02-09 16:58:20.777 | INFO     | __main__:main:68 - Database connection closed.
+2025-02-09 16:58:36.331 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:58:36.335 | INFO     | __main__:main:74 - Starting updates and feature engineering...
+2025-02-09 16:58:36.339 | INFO     | __main__:main:88 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:58:36.408 | INFO     | __main__:execute_sql_file:63 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\delete_records.sql
+2025-02-09 16:58:36.790 | INFO     | __main__:execute_sql_file:63 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_features\update_records.sql
+2025-02-09 16:58:36.793 | INFO     | __main__:main:98 - Database updates completed successfully.
+2025-02-09 16:58:36.793 | INFO     | __main__:main:103 - Database connection closed.
+2025-02-09 16:58:46.549 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 16:58:46.553 | INFO     | db03_queries:sorting_rim_protection:56 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 16:58:46.563 | INFO     | db03_queries:execute_sql_file:48 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 16:58:46.563 | INFO     | db03_queries:sorting_rim_protection:58 - Sorted successfully.
+2025-02-09 16:58:46.567 | INFO     | db03_queries:sorting_rim_protection:66 - Database connection closed.
+2025-02-09 17:04:03.976 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 17:04:04.040 | INFO     | db03_queries:sorting_rim_protection:56 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 17:04:04.070 | INFO     | db03_queries:execute_sql_file:48 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 17:04:04.070 | INFO     | db03_queries:sorting_rim_protection:58 - Sorted successfully.
+2025-02-09 17:04:04.070 | ERROR    | db03_queries:sorting_rim_protection:65 - Error during sorting: no such table: sorted_rim_protection
+2025-02-09 17:04:04.076 | INFO     | db03_queries:sorting_rim_protection:68 - Database connection closed.
+2025-02-09 17:06:15.807 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 17:06:15.827 | INFO     | db03_queries:sorting_rim_protection:56 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 17:06:15.840 | INFO     | db03_queries:execute_sql_file:48 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 17:06:15.841 | INFO     | db03_queries:sorting_rim_protection:58 - Sorted successfully.
+2025-02-09 17:06:16.489 | INFO     | db03_queries:sorting_rim_protection:69 - Database connection closed.
+2025-02-09 17:11:07.848 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 17:11:08.634 | INFO     | db03_queries:sorting_rim_protection:57 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 17:11:08.643 | INFO     | db03_queries:execute_sql_file:49 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 17:11:08.643 | INFO     | db03_queries:sorting_rim_protection:59 - Sorted successfully.
+2025-02-09 17:11:08.831 | INFO     | db03_queries:sorting_rim_protection:71 - Database connection closed.
+2025-02-09 17:12:48.867 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 17:12:50.158 | INFO     | db03_queries:sorting_rim_protection:57 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 17:12:50.167 | INFO     | db03_queries:execute_sql_file:49 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 17:12:50.167 | INFO     | db03_queries:sorting_rim_protection:60 - Sorted successfully.
+2025-02-09 17:12:50.191 | INFO     | db03_queries:sorting_rim_protection:70 - Database connection closed.
+2025-02-09 17:18:27.163 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 17:18:28.499 | INFO     | db03_queries:sorting_rim_protection:57 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 17:18:28.502 | ERROR    | db03_queries:sorting_rim_protection:67 - Error during sorting: 'sqlite3.Cursor' object has no attribute 'execute_sql_file'
+2025-02-09 17:18:28.504 | INFO     | db03_queries:sorting_rim_protection:70 - Database connection closed.
+2025-02-09 17:19:32.912 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 17:19:34.050 | INFO     | db03_queries:sorting_rim_protection:57 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 17:19:34.054 | INFO     | db03_queries:execute_sql_file:49 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 17:19:34.063 | ERROR    | db03_queries:sorting_rim_protection:68 - Error during sorting: execute() argument 1 must be str, not None
+2025-02-09 17:19:34.063 | INFO     | db03_queries:sorting_rim_protection:71 - Database connection closed.
+2025-02-09 17:20:12.502 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 17:20:13.526 | INFO     | db03_queries:sorting_rim_protection:57 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 17:20:13.526 | ERROR    | db03_queries:sorting_rim_protection:68 - Error during sorting: near "execute_sql_file": syntax error
+2025-02-09 17:20:13.530 | INFO     | db03_queries:sorting_rim_protection:71 - Database connection closed.
+2025-02-09 17:55:31.513 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 17:55:32.735 | INFO     | db03_queries:sorting_rim_protection:59 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 17:55:32.757 | INFO     | db03_queries:execute_sql_file:51 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 17:55:32.759 | INFO     | db03_queries:sorting_rim_protection:61 - Sorted successfully.
+2025-02-09 17:55:32.759 | ERROR    | db03_queries:sorting_rim_protection:67 - Error during sorting: name 'df_results' is not defined
+2025-02-09 17:55:32.760 | INFO     | db03_queries:sorting_rim_protection:70 - Database connection closed.
+2025-02-09 17:56:32.422 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 17:56:33.602 | INFO     | db03_queries:sorting_rim_protection:60 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 17:56:33.623 | INFO     | db03_queries:execute_sql_file:52 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 17:56:33.624 | INFO     | db03_queries:sorting_rim_protection:62 - Sorted successfully.
+2025-02-09 17:56:33.625 | INFO     | db03_queries:sorting_rim_protection:70 - Database connection closed.
+2025-02-09 18:02:59.940 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 18:03:01.378 | INFO     | db03_queries:sorting_rim_protection:62 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 18:03:01.405 | ERROR    | db03_queries:execute_sql_file:56 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql: cannot access local variable 'df_results' where it is not associated with a value
+2025-02-09 18:03:01.407 | ERROR    | db03_queries:sorting_rim_protection:69 - Error during sorting: cannot access local variable 'df_results' where it is not associated with a value
+2025-02-09 18:03:01.407 | INFO     | db03_queries:sorting_rim_protection:72 - Database connection closed.
+2025-02-09 18:04:33.746 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 18:04:35.018 | INFO     | db03_queries:sorting_rim_protection:62 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 18:04:35.038 | INFO     | db03_queries:execute_sql_file:54 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 18:04:35.038 | INFO     | db03_queries:sorting_rim_protection:64 - Sorted successfully.
+2025-02-09 18:04:35.039 | INFO     | db03_queries:sorting_rim_protection:72 - Database connection closed.
+2025-02-09 18:08:12.374 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 18:08:13.449 | INFO     | db03_queries:sorting_rim_protection:63 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 18:08:13.485 | INFO     | db03_queries:execute_sql_file:55 - Executed: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 18:08:13.491 | INFO     | db03_queries:sorting_rim_protection:65 - Sorted successfully.
+2025-02-09 18:08:13.493 | INFO     | db03_queries:sorting_rim_protection:73 - Database connection closed.
+2025-02-09 19:06:33.751 | INFO     | db03_queries:sorting_rim_protection:56 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:06:33.781 | ERROR    | db03_queries:execute_sql_file:50 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql: Cannot operate on a closed database.
+2025-02-09 19:06:33.783 | ERROR    | db03_queries:sorting_rim_protection:63 - Error during sorting: Cannot operate on a closed database.
+2025-02-09 19:06:33.785 | INFO     | db03_queries:sorting_rim_protection:66 - Database connection closed.
+2025-02-09 19:06:51.757 | INFO     | db03_queries:sorting_rim_protection:56 - Connected to database: C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:06:51.764 | ERROR    | db03_queries:execute_sql_file:50 - Failed to execute C:\Projects\MS in Data Analytics\Data Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql: Cannot operate on a closed database.
+2025-02-09 19:06:51.768 | ERROR    | db03_queries:sorting_rim_protection:63 - Error during sorting: Cannot operate on a closed database.
+2025-02-09 19:06:51.771 | INFO     | db03_queries:sorting_rim_protection:66 - Database connection closed.
+2025-02-09 19:16:47.248 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 19:16:53.306 | INFO     | db03_queries:sorting_rim_protection:63 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:16:53.382 | INFO     | db03_queries:execute_sql_file:55 - Executed: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql
+2025-02-09 19:16:53.387 | INFO     | db03_queries:sorting_rim_protection:65 - Sorted successfully.
+2025-02-09 19:16:53.393 | INFO     | db03_queries:sorting_rim_protection:73 - Database connection closed.
+2025-02-09 19:26:13.775 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 19:26:15.109 | INFO     | db03_queries:capture_dataframe:135 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:26:15.286 | INFO     | db03_queries:capture_dataframe:142 - Captured successfully.
+2025-02-09 19:26:15.293 | INFO     | db03_queries:capture_dataframe:147 - Database connection closed.
+2025-02-09 19:37:47.621 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 19:37:49.139 | INFO     | db03_queries:sorting_rim_protection:63 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:37:49.286 | INFO     | db03_queries:sorting_rim_protection:70 - Sorted successfully.
+2025-02-09 19:37:49.286 | INFO     | db03_queries:sorting_rim_protection:75 - Database connection closed.
+2025-02-09 19:41:58.281 | INFO     | db03_queries:sorting_rim_protection:63 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:41:58.287 | ERROR    | db03_queries:execute_sql_file:57 - Failed to execute C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql: Cannot operate on a closed database.
+2025-02-09 19:41:58.287 | ERROR    | db03_queries:sorting_rim_protection:70 - Error during sorting: Cannot operate on a closed database.
+2025-02-09 19:41:58.290 | INFO     | db03_queries:sorting_rim_protection:73 - Database connection closed.
+2025-02-09 19:42:08.886 | INFO     | db03_queries:sorting_rim_protection:63 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:42:08.889 | ERROR    | db03_queries:execute_sql_file:57 - Failed to execute C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\sql_queries\query_sorting.sql: Cannot operate on a closed database.
+2025-02-09 19:42:08.891 | ERROR    | db03_queries:sorting_rim_protection:70 - Error during sorting: Cannot operate on a closed database.
+2025-02-09 19:42:08.892 | INFO     | db03_queries:sorting_rim_protection:73 - Database connection closed.
+2025-02-09 19:43:46.463 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 19:43:47.622 | INFO     | db03_queries:group_by_team_avg_weight:81 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:43:47.660 | ERROR    | db03_queries:group_by_team_avg_weight:90 - Error during grouping: Execution failed on sql '-- use GROUP BY clause (and optionally with aggregation)
+
+-- average weight of players by team
+SELECT teams, AVG(weight) AS avg_weight
+FROM players
+GROUP BY team;
+': no such column: teams
+2025-02-09 19:43:47.668 | INFO     | db03_queries:group_by_team_avg_weight:93 - Database connection closed.
+2025-02-09 19:46:26.624 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 19:46:28.017 | INFO     | db03_queries:group_by_team_avg_weight:81 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:46:28.060 | ERROR    | db03_queries:group_by_team_avg_weight:90 - Error during grouping: Execution failed on sql '-- use GROUP BY clause (and optionally with aggregation)
+
+-- average weight of players by team
+SELECT team, [weight] AVG([weight]) AS avg_weight
+FROM players
+GROUP BY team;
+': near "(": syntax error
+2025-02-09 19:46:28.060 | INFO     | db03_queries:group_by_team_avg_weight:93 - Database connection closed.
+2025-02-09 19:47:23.024 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 19:47:23.958 | INFO     | db03_queries:group_by_team_avg_weight:81 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:47:23.960 | ERROR    | db03_queries:group_by_team_avg_weight:90 - Error during grouping: Execution failed on sql '-- use GROUP BY clause (and optionally with aggregation)
+
+-- average weight of players by team
+SELECT team, [weight] AVG(weight) AS avg_weight
+FROM players
+GROUP BY team;
+': near "(": syntax error
+2025-02-09 19:47:23.960 | INFO     | db03_queries:group_by_team_avg_weight:93 - Database connection closed.
+2025-02-09 19:49:11.819 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 19:49:13.116 | INFO     | db03_queries:group_by_team_avg_weight:81 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:49:13.196 | INFO     | db03_queries:group_by_team_avg_weight:88 - Grouped successfully.
+2025-02-09 19:49:13.196 | INFO     | db03_queries:group_by_team_avg_weight:93 - Database connection closed.
+2025-02-09 19:51:08.595 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 19:51:09.613 | INFO     | db03_queries:group_by_team_avg_weight:81 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 19:51:09.663 | INFO     | db03_queries:group_by_team_avg_weight:88 - Grouped successfully.
+2025-02-09 19:51:09.663 | INFO     | db03_queries:group_by_team_avg_weight:93 - Database connection closed.

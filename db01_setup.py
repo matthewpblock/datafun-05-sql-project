@@ -33,7 +33,8 @@ def execute_sql_file(connection, file_path) -> None:
         logger.error(f"Failed to execute {file_path}: {e}")
         raise
 ###############################################
-# Main Execution ###############################################
+# Main Execution 
+###############################################
 def main() -> None:
 
     # Log start of database setup
