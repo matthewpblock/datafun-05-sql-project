@@ -121,22 +121,27 @@ def aggregation():
     - regular_away_points'''
     try:
         logger.info(f"Connected to database: {DB_PATH}")
-        execute_sql_file(connection, SQL_QUERIES_FOLDER.joinpath('query_aggregation.sql'))
+        with open(SQL_QUERIES_FOLDER.joinpath('query_aggregation.sql'), 'r') as file:
+            # Read the SQL file into a string
+            sql_script: str = file.read()
+            # Execute the SQL script into a DataFrame
+            df_aggregated = pd.read_sql_query(sql_script, connection)
+            print(df_aggregated.head())
         logger.info("Aggregated successfully.")
     except Exception as e:
         logger.error(f"Error during aggregation: {e}")
     finally:
         connection.close()
         logger.info("Database connection closed.")
-    print(f"Results:\n"
-          f"Average height in inches: {avg_height_in}\n"
-          f"Average weight: {avg_weight}\n"
-          f"Count of Bubble Games: {bubble_games}\n"
-          f"Count of Regular Games: {regular_games}\n"
-          f"Bubble Home Points: {bubble_home_points}\n"
-          f"Bubble Away Points: {bubble_away_points}\n"
-          f"Regular Home Points: {regular_home_points}\n"
-          f"Regular Away Points: {regular_away_points}")
+    #print(f"Results:\n"
+    #      f"Average height in inches: {avg_height_in}\n"
+    #      f"Average weight: {avg_weight}\n"
+    #      f"Count of Bubble Games: {bubble_games}\n"
+    #      f"Count of Regular Games: {regular_games}\n"
+    #      f"Bubble Home Points: {bubble_home_points}\n"
+    #      f"Bubble Away Points: {bubble_away_points}\n"
+    #      f"Regular Home Points: {regular_home_points}\n"
+    #      f"Regular Away Points: {regular_away_points}")
     
 def join():
     '''Reserved for future use.'''
