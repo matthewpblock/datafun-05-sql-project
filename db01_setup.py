@@ -6,7 +6,6 @@ Use Python to create a new relational database and store it in the data folder.
 
 # Imports from Python Standard Library
 import sqlite3
-import os
 import pathlib
 
 # Import local modules

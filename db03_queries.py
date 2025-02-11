@@ -110,15 +110,7 @@ def filter_bench():
         logger.info("Database connection closed.")
     
 def aggregation():
-    '''Calculate several parameters for players and games:
-    - avg_height_in
-    - avg_weight
-    - bubble_games
-    - regular_games
-    - bubble_home_points
-    - bubble_away_points
-    - regular_home_points
-    - regular_away_points'''
+    '''Calculate average height and weight of league players'''
     try:
         logger.info(f"Connected to database: {DB_PATH}")
         with open(SQL_QUERIES_FOLDER.joinpath('query_aggregation.sql'), 'r') as file:

@@ -422,3 +422,27 @@ WHERE bubble = FALSE;
 2025-02-09 20:06:32.060 | INFO     | db03_queries:aggregation:123 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
 2025-02-09 20:06:32.086 | INFO     | db03_queries:aggregation:130 - Aggregated successfully.
 2025-02-09 20:06:32.086 | INFO     | db03_queries:aggregation:135 - Database connection closed.
+2025-02-09 20:31:55.715 | INFO     | db03_queries:aggregation:111 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 20:31:55.725 | ERROR    | db03_queries:execute_sql_file:57 - Failed to execute C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\sql_queries\query_aggregation.sql: Cannot operate on a closed database.
+2025-02-09 20:31:55.727 | ERROR    | db03_queries:aggregation:115 - Error during aggregation: Cannot operate on a closed database.
+2025-02-09 20:31:55.729 | INFO     | db03_queries:aggregation:118 - Database connection closed.
+2025-02-09 20:33:00.647 | INFO     | db03_queries:aggregation:111 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 20:33:00.656 | ERROR    | db03_queries:execute_sql_file:57 - Failed to execute C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\sql_queries\query_aggregation.sql: Cannot operate on a closed database.
+2025-02-09 20:33:00.658 | ERROR    | db03_queries:aggregation:115 - Error during aggregation: Cannot operate on a closed database.
+2025-02-09 20:33:00.660 | INFO     | db03_queries:aggregation:118 - Database connection closed.
+2025-02-09 20:33:46.602 | INFO     | db03_queries:aggregation:111 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 20:33:46.604 | ERROR    | db03_queries:execute_sql_file:57 - Failed to execute C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\sql_queries\query_aggregation.sql: Cannot operate on a closed database.
+2025-02-09 20:33:46.606 | ERROR    | db03_queries:aggregation:115 - Error during aggregation: Cannot operate on a closed database.
+2025-02-09 20:33:46.608 | INFO     | db03_queries:aggregation:118 - Database connection closed.
+2025-02-09 20:34:25.662 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 20:34:27.031 | INFO     | db03_queries:aggregation:123 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 20:34:27.069 | INFO     | db03_queries:aggregation:130 - Aggregated successfully.
+2025-02-09 20:34:27.069 | INFO     | db03_queries:aggregation:135 - Database connection closed.
+2025-02-09 20:36:46.442 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-09 20:36:47.390 | INFO     | db03_queries:aggregation:115 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 20:36:47.442 | INFO     | db03_queries:aggregation:122 - Aggregated successfully.
+2025-02-09 20:36:47.454 | INFO     | db03_queries:aggregation:127 - Database connection closed.
+2025-02-09 20:37:00.014 | INFO     | db03_queries:aggregation:111 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-09 20:37:00.021 | ERROR    | db03_queries:execute_sql_file:57 - Failed to execute C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\sql_queries\query_aggregation.sql: Cannot operate on a closed database.
+2025-02-09 20:37:00.024 | ERROR    | db03_queries:aggregation:115 - Error during aggregation: Cannot operate on a closed database.
+2025-02-09 20:37:00.027 | INFO     | db03_queries:aggregation:118 - Database connection closed.
