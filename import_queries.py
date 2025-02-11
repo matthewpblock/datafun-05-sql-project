@@ -8,4 +8,4 @@ import db03_queries as queries
 # Define Variables
 ############################################
 
-queries.aggregation()
+queries.join()

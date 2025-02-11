@@ -446,3 +446,25 @@ WHERE bubble = FALSE;
 2025-02-09 20:37:00.021 | ERROR    | db03_queries:execute_sql_file:57 - Failed to execute C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\sql_queries\query_aggregation.sql: Cannot operate on a closed database.
 2025-02-09 20:37:00.024 | ERROR    | db03_queries:aggregation:115 - Error during aggregation: Cannot operate on a closed database.
 2025-02-09 20:37:00.027 | INFO     | db03_queries:aggregation:118 - Database connection closed.
+2025-02-10 20:14:46.122 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-10 20:14:50.221 | INFO     | db03_queries:join:142 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-10 20:14:50.252 | ERROR    | db03_queries:join:151 - Error during joining: Execution failed on sql '-- use INNER JOIN operation and optionally include LEFT JOIN, RIGHT JOIN, etc.
+
+SELECT player_game.game_date, players.first, players.last, player_game.pts, player_game.reb, player_game.ast, player_game.stl, player_game.blk, players.height_inches, players.weight, players.season_exp, players.pos
+FROM player_game
+INNER JOIN players ON players.player_id = player_game.player_id;
+': no such table: player_game
+2025-02-10 20:14:50.257 | INFO     | db03_queries:join:154 - Database connection closed.
+2025-02-10 20:16:01.155 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-10 20:16:02.049 | INFO     | db03_queries:join:142 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-10 20:16:02.084 | ERROR    | db03_queries:join:151 - Error during joining: Execution failed on sql '-- use INNER JOIN operation and optionally include LEFT JOIN, RIGHT JOIN, etc.
+
+SELECT player_games.game_date, players.first, players.last, player_games.pts, player_games.reb, player_games.ast, player_games.stl, player_games.blk, players.height_inches, players.weight, players.season_exp, players.pos
+FROM player_games
+INNER JOIN players ON players.player_id = player_games.player_id;
+': no such column: player_games.game_date
+2025-02-10 20:16:02.086 | INFO     | db03_queries:join:154 - Database connection closed.
+2025-02-10 20:16:28.210 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-10 20:16:29.345 | INFO     | db03_queries:join:142 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-10 20:16:29.559 | INFO     | db03_queries:join:149 - Joined successfully.
+2025-02-10 20:16:29.559 | INFO     | db03_queries:join:154 - Database connection closed.
