@@ -507,3 +507,7 @@ INNER JOIN players ON players.player_id = player_games.player_id;
 2025-02-11 19:38:33.655 | INFO     | db03_queries:join:153 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
 2025-02-11 19:39:52.099 | INFO     | db03_queries:join:169 - Joined successfully.
 2025-02-11 19:39:52.104 | INFO     | db03_queries:join:174 - Database connection closed.
+2025-02-11 19:44:20.971 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-11 19:44:22.474 | INFO     | db03_queries:join:153 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-11 20:00:16.946 | INFO     | db03_queries:join:169 - Joined successfully.
+2025-02-11 20:00:16.957 | INFO     | db03_queries:join:174 - Database connection closed.
