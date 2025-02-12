@@ -84,7 +84,7 @@ def group_by_team_avg_weight():
             sql_script: str = file.read()
             # Execute the SQL script into a DataFrame
             df_grouped = pd.read_sql_query(sql_script, connection)
-            print(df_grouped.head())
+            print(df_grouped)
         logger.info("Grouped successfully.")
     except Exception as e:
         logger.error(f"Error during grouping: {e}")
