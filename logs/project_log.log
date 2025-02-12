@@ -486,3 +486,24 @@ INNER JOIN players ON players.player_id = player_games.player_id;
 2025-02-10 21:00:53.201 | INFO     | db03_queries:join:142 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
 2025-02-10 21:00:53.266 | INFO     | db03_queries:join:149 - Joined successfully.
 2025-02-10 21:00:53.266 | INFO     | db03_queries:join:154 - Database connection closed.
+2025-02-11 19:25:39.971 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-11 19:25:47.495 | INFO     | db03_queries:join:152 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-11 19:25:52.183 | ERROR    | db03_queries:join:168 - Error during joining: 'team'
+2025-02-11 19:25:52.183 | INFO     | db03_queries:join:171 - Database connection closed.
+2025-02-11 19:27:22.730 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-11 19:27:24.535 | INFO     | db03_queries:join:152 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-11 19:36:10.941 | INFO     | db03_queries:join:165 - Joined successfully.
+2025-02-11 19:36:10.943 | INFO     | db03_queries:join:170 - Database connection closed.
+2025-02-11 19:36:19.281 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-11 19:36:35.648 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-11 19:36:37.409 | INFO     | db03_queries:join:153 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-11 19:36:37.555 | ERROR    | db03_queries:join:171 - Error during joining: ('pts', 'reb', 'ast', 'stl', 'blk', 'height_inches', 'weight', 'season_exp')
+2025-02-11 19:36:37.558 | INFO     | db03_queries:join:174 - Database connection closed.
+2025-02-11 19:37:33.503 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-11 19:37:35.272 | INFO     | db03_queries:join:153 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-11 19:37:36.349 | ERROR    | db03_queries:join:171 - Error during joining: 'pos'
+2025-02-11 19:37:36.349 | INFO     | db03_queries:join:174 - Database connection closed.
+2025-02-11 19:38:32.100 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-11 19:38:33.655 | INFO     | db03_queries:join:153 - Connected to database: C:\Projects\MS_Data_Analytics\Data_Fundamentals\datafun-05-sql-project\data\db.sqlite
+2025-02-11 19:39:52.099 | INFO     | db03_queries:join:169 - Joined successfully.
+2025-02-11 19:39:52.104 | INFO     | db03_queries:join:174 - Database connection closed.

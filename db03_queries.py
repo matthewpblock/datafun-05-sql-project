@@ -8,6 +8,8 @@ Use Python to execute SQL scripts.
 import sqlite3
 import pathlib
 import pandas as pd
+import seaborn as sns
+import matplotlib
 
 # Import local modules
 from utils_logger import logger
@@ -57,8 +59,11 @@ def execute_sql_file(connection, file_path) -> None:
         logger.error(f"Failed to execute {file_path}: {e}")
         raise
     
-def sorting_rim_protection():
-    '''Sort the players by rim protection (blocks per game) in descending order.'''
+def sorting_rim_protection(n=10):
+    '''Sort the players by rim protection (blocks per game) in descending order.
+    Args:
+        n (int): Number of rows to display. Default is 10.
+    '''
     try:
         logger.info(f"Connected to database: {DB_PATH}")
         with open(SQL_QUERIES_FOLDER.joinpath('query_sorting.sql'), 'r') as file:
@@ -66,7 +71,7 @@ def sorting_rim_protection():
             sql_script: str = file.read()
             # Execute the SQL script into a DataFrame
             df_sorted = pd.read_sql_query(sql_script, connection)
-            print(df_sorted.head())
+            print(df_sorted.head(n))
         logger.info("Sorted successfully.")
     except Exception as e:
         logger.error(f"Error during sorting: {e}")
@@ -92,8 +97,11 @@ def group_by_team_avg_weight():
         connection.close()
         logger.info("Database connection closed.")
         
-def filter_bench():
-    '''Filter to only performances coming off the bench (no starters)'''
+def filter_bench(n=7):
+    '''Filter to only performances coming off the bench (no starters)
+    Args:
+        n (int): Number of rows to display. Default is 7.
+    '''
     try:
         logger.info(f"Connected to database: {DB_PATH}")
         with open(SQL_QUERIES_FOLDER.joinpath('query_filter.sql'), 'r') as file:
@@ -101,7 +109,7 @@ def filter_bench():
             sql_script: str = file.read()
             # Execute the SQL script into a DataFrame
             df_filtered = pd.read_sql_query(sql_script, connection)
-            print(df_filtered.head())
+            print(df_filtered.head(n))
         logger.info("Filtered successfully.")
     except Exception as e:
         logger.error(f"Error during filtering: {e}")
@@ -118,7 +126,7 @@ def aggregation():
             sql_script: str = file.read()
             # Execute the SQL script into a DataFrame
             df_aggregated = pd.read_sql_query(sql_script, connection)
-            print(df_aggregated.head())
+            print(df_aggregated)
         logger.info("Aggregated successfully.")
     except Exception as e:
         logger.error(f"Error during aggregation: {e}")
@@ -135,9 +143,12 @@ def aggregation():
     #      f"Regular Home Points: {regular_home_points}\n"
     #      f"Regular Away Points: {regular_away_points}")
     
-def join():
-    '''Reserved for future use.
-    Will implement joining once .sql file is created.'''
+def join(n=5, columns=["pts", "reb", "ast", "stl", "blk", "height_inches", "weight", "season_exp", "pos"]):
+    '''Combine data to test correlations of various characteristics to performance.
+    Args:
+        n (int): Number of rows to display. Default is 5.
+        columns (list): List of column names to include in the pairplot. Default is None (all columns).
+    '''
     try:
         logger.info(f"Connected to database: {DB_PATH}")
         # execute_sql_file(connection, SQL_QUERIES_FOLDER.joinpath('query_capture.sql'))
@@ -145,7 +156,16 @@ def join():
             # Read the SQL file into a string
             sql_script: str = file.read()
             df_join = pd.read_sql_query(sql_script, connection)
-            print(df_join.head())
+            print(df_join.head(n))
+            # If columns are specified, filter the DataFrame to include only those columns
+            if columns:
+                df_join_pairs = df_join[columns]
+            # Create a pairplot of the rendered dataset
+            sns.pairplot(df_join_pairs, hue='pos')
+
+            # Show all plots
+            matplotlib.pyplot.show()            
+            
         logger.info("Joined successfully.")
     except Exception as e:
         logger.error(f"Error during joining: {e}")
